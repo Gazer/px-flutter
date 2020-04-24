@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mercado_pago_mobile_checkout.iml" filepath="$PROJECT_DIR$/mercado_pago_mobile_checkout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/mercado_pago_mobile_checkout_android.iml" filepath="$PROJECT_DIR$/android/mercado_pago_mobile_checkout_android.iml" />
+      <module fileurl="file://$PROJECT_DIR$/example/android/mercado_pago_mobile_checkout_example_android.iml" filepath="$PROJECT_DIR$/example/android/mercado_pago_mobile_checkout_example_android.iml" />
+    </modules>
+  </component>
+</project>

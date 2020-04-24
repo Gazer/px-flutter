@@ -1,0 +1,173 @@
+PODS:
+  - Flutter (1.0.0)
+  - FXBlurView (1.6.4)
+  - JRSwizzle (1.0)
+  - mercado_pago_mobile_checkout (0.0.1):
+    - Flutter
+    - MercadoPagoSDK (~> 4.32.4)
+  - MercadoPagoSDK (4.32.4):
+    - MercadoPagoSDK/Default (= 4.32.4)
+    - MLBusinessComponents (~> 1.0)
+    - MLCardForm (~> 0.1)
+  - MercadoPagoSDK/Default (4.32.4):
+    - MLBusinessComponents (~> 1.0)
+    - MLCardDrawer (~> 1.0)
+    - MLCardForm (~> 0.1)
+    - MLUI (~> 5.0)
+  - MLBusinessComponents (1.8.4):
+    - MLBusinessComponents/Default (= 1.8.4)
+    - MLUI (~> 5.0)
+  - MLBusinessComponents/Default (1.8.4):
+    - MLUI (~> 5.0)
+  - MLCardDrawer (1.4.6):
+    - MLCardDrawer/Default (= 1.4.6)
+  - MLCardDrawer/Default (1.4.6)
+  - MLCardForm (0.8.2):
+    - MLCardDrawer (~> 1.0)
+    - MLCardForm/Default (= 0.8.2)
+    - MLUI (~> 5.0)
+  - MLCardForm/Default (0.8.2):
+    - MLCardDrawer (~> 1.0)
+    - MLUI (~> 5.0)
+  - MLUI (5.20.0):
+    - MLUI/ActionButton (= 5.20.0)
+    - MLUI/Core (= 5.20.0)
+    - MLUI/Helpers (= 5.20.0)
+    - MLUI/MLButton (= 5.20.0)
+    - MLUI/MLCheckBox (= 5.20.0)
+    - MLUI/MLColorPalette (= 5.20.0)
+    - MLUI/MLContextualMenu (= 5.20.0)
+    - MLUI/MLFonts (= 5.20.0)
+    - MLUI/MLFullscreenModal (= 5.20.0)
+    - MLUI/MLGenericErrorView (= 5.20.0)
+    - MLUI/MLHeader (= 5.20.0)
+    - MLUI/MLHtml (= 5.20.0)
+    - MLUI/MLModal (= 5.20.0)
+    - MLUI/MLRadioButton (= 5.20.0)
+    - MLUI/MLSnackBar (= 5.20.0)
+    - MLUI/MLSpacing (= 5.20.0)
+    - MLUI/MLSpinner (= 5.20.0)
+    - MLUI/MLSwitch (= 5.20.0)
+    - MLUI/MLTextView (= 5.20.0)
+    - MLUI/MLTitledMultiLineTextField (= 5.20.0)
+    - MLUI/MLTitledSingleLineTextField (= 5.20.0)
+    - MLUI/PriceView (= 5.20.0)
+    - MLUI/SnackBarView (= 5.20.0)
+    - MLUI/StyleSheet (= 5.20.0)
+  - MLUI/ActionButton (5.20.0):
+    - MLUI/Core
+  - MLUI/Core (5.20.0):
+    - MLUI/MLFonts
+  - MLUI/Helpers (5.20.0)
+  - MLUI/MLButton (5.20.0):
+    - MLUI/Core
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/MLSpinner
+    - MLUI/StyleSheet
+  - MLUI/MLCheckBox (5.20.0):
+    - MLUI/MLColorPalette
+    - MLUI/StyleSheet
+  - MLUI/MLColorPalette (5.20.0)
+  - MLUI/MLContextualMenu (5.20.0):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+  - MLUI/MLFonts (5.20.0):
+    - JRSwizzle (= 1.0)
+    - MLUI/Helpers
+    - MLUI/StyleSheet
+  - MLUI/MLFullscreenModal (5.20.0):
+    - FXBlurView (~> 1.6)
+    - MLUI/Core
+    - MLUI/MLButton
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/MLHeader
+    - MLUI/StyleSheet
+  - MLUI/MLGenericErrorView (5.20.0):
+    - MLUI/MLButton
+    - MLUI/MLColorPalette
+    - MLUI/MLSpacing
+  - MLUI/MLHeader (5.20.0):
+    - MLUI/MLColorPalette
+    - MLUI/StyleSheet
+  - MLUI/MLHtml (5.20.0):
+    - MLUI/MLFonts
+  - MLUI/MLModal (5.20.0):
+    - FXBlurView (~> 1.6)
+    - MLUI/Core
+    - MLUI/MLButton
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/StyleSheet
+  - MLUI/MLRadioButton (5.20.0):
+    - MLUI/StyleSheet
+  - MLUI/MLSnackBar (5.20.0):
+    - MLUI/Helpers
+    - MLUI/MLButton
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+  - MLUI/MLSpacing (5.20.0):
+    - JRSwizzle (= 1.0)
+    - MLUI/MLFonts
+  - MLUI/MLSpinner (5.20.0):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/StyleSheet
+  - MLUI/MLSwitch (5.20.0):
+    - MLUI/Helpers
+    - MLUI/MLColorPalette
+  - MLUI/MLTextView (5.20.0):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+  - MLUI/MLTitledMultiLineTextField (5.20.0):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/MLTitledSingleLineTextField
+    - MLUI/StyleSheet
+  - MLUI/MLTitledSingleLineTextField (5.20.0):
+    - MLUI/MLColorPalette
+    - MLUI/MLFonts
+    - MLUI/StyleSheet
+  - MLUI/PriceView (5.20.0):
+    - MLUI/Core
+    - MLUI/MLFonts
+  - MLUI/SnackBarView (5.20.0):
+    - MLUI/Helpers
+    - MLUI/MLFonts
+  - MLUI/StyleSheet (5.20.0)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - mercado_pago_mobile_checkout (from `.symlinks/plugins/mercado_pago_mobile_checkout/ios`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - FXBlurView
+    - JRSwizzle
+    - MercadoPagoSDK
+    - MLBusinessComponents
+    - MLCardDrawer
+    - MLCardForm
+    - MLUI
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  mercado_pago_mobile_checkout:
+    :path: ".symlinks/plugins/mercado_pago_mobile_checkout/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
+  JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
+  mercado_pago_mobile_checkout: 97b11c3ce421a3fb0dda21f85a443117a968dbc6
+  MercadoPagoSDK: 634fc8a9fe7f99f4d73506659c68cdbb885407fc
+  MLBusinessComponents: c84680989772b9c5c324d826142729386e02b14b
+  MLCardDrawer: 468f0d2387fd9402478afed67058169ee4daa9ca
+  MLCardForm: 235726a6fb513ead8e3811a95e43717de46814c9
+  MLUI: ad42fd449a4d8bf7e4dcdc43c719e9bcdfa665cc
+
+PODFILE CHECKSUM: 0ba44ad07df4ab62269dc769727cf0f12b1e453d
+
+COCOAPODS: 1.6.1
