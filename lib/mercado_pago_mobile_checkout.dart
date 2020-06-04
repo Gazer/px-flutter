@@ -1,6 +1,9 @@
 import 'dart:async';
 
 import 'package:flutter/services.dart';
+import 'package:mercado_pago_mobile_checkout/src/payment_result.dart';
+
+export 'package:mercado_pago_mobile_checkout/src/payment_result.dart';
 
 class MercadoPagoMobileCheckout {
   static const MethodChannel _channel =
@@ -16,7 +19,7 @@ class MercadoPagoMobileCheckout {
 
   /// Start a checkout for the given preference
   ///
-  /// This method return a Map<String, dynamic> with the payment information,
+  /// This method return a PaymentResult with the payment information,
   /// if any or the error code.
   ///
   /// The publicKey should be the key provided by MercadoPago in the App Credentials
@@ -26,7 +29,7 @@ class MercadoPagoMobileCheckout {
   /// with all the settings. You can personalize several aspects of the checkout.
   /// See <https://www.mercadopago.com.ar/developers/es/guides/payments/mobile-checkout/personalization/>
   /// for more details.
-  static Future<Map<String, dynamic>> startCheckout(
+  static Future<PaymentResult> startCheckout(
     String publicKey,
     String preferenceId,
   ) async {
@@ -37,6 +40,6 @@ class MercadoPagoMobileCheckout {
         "preferenceId": preferenceId,
       },
     );
-    return result;
+    return PaymentResult.fromJson(result);
   }
 }

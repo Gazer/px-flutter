@@ -81,11 +81,12 @@ class _MyAppState extends State<MyApp> {
               Text('Running on: $_platformVersion\n'),
               RaisedButton(
                 onPressed: () async {
-                  var result = await MercadoPagoMobileCheckout.startCheckout(
+                  PaymentResult result =
+                      await MercadoPagoMobileCheckout.startCheckout(
                     publicKey,
                     preferenceId,
                   );
-                  print(result);
+                  print(result.toString());
                 },
                 child: Text("Pagar"),
               ),

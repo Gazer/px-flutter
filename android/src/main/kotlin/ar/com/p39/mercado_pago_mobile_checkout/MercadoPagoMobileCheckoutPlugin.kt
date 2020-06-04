@@ -108,16 +108,31 @@ public class MercadoPagoMobileCheckoutPlugin: FlutterPlugin, MethodCallHandler, 
       if (resultCode == MercadoPagoCheckout.PAYMENT_RESULT_CODE) {
         val payment = data?.getSerializableExtra(MercadoPagoCheckout.EXTRA_PAYMENT_RESULT) as Payment
 
+        val payer = mapOf(
+          "no-op" to ""
+        )
+
+        val transactionDetails = mapOf(
+          "no-op" to ""
+        )
+
         //Done!
         // TODO Return all fields in the payment and map them to Dart objects
         pendingResult?.success(mapOf(
                 "result" to "done",
                 "id" to payment.id,
                 "status" to payment.paymentStatus,
-                "payment_method_id" to payment.paymentMethodId,
-                "payment_type_id" to payment.paymentTypeId,
-                "issuer_id" to payment.issuerId,
-                "installments" to payment.installments
+                "statusDetail" to payment.paymentStatusDetail,
+                "paymentMethodId" to payment.paymentMethodId,
+                "paymentTypeId" to payment.paymentTypeId,
+                "issuerId" to payment.issuerId,
+                "installments" to payment.installments,
+                "captured" to payment.captured,
+                "liveMode" to payment.liveMode,
+                "operationType" to payment.operationType,
+                "payer" to payer,
+                "transactionAmount" to payment.transactionAmount.toString(),
+                "transactionDetails" to transactionDetails
         ))
       } else if (resultCode == RESULT_CANCELED) {
         if (data?.extras != null && data.extras?.containsKey(MercadoPagoCheckout.EXTRA_ERROR) == true) {

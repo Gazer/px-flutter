@@ -39,35 +39,39 @@ public class SwiftMercadoPagoMobileCheckoutPlugin: NSObject, FlutterPlugin, PXLi
     
     public func cancelCheckout() -> (() -> Void)? {
         return {
-            self.pendingResult!(FlutterError(
-                code: "1",
-                message: "Canceled",
-                details: nil
-            ))
+            var resultData : [String : String] = [:]
+            resultData["result"] = "canceled"
+            self.pendingResult!(resultData)
             
             self.handleNavigationBar(isMercadoPagoActive: false)
         }
     }
+    
     
     public func finishCheckout() -> ((PXResult?) -> Void)? {
         return ({(_ payment: PXResult?) in
             var resultData : [String : String] = [:]
             
             if let delegate = (payment) {
+                resultData["result"] = "done"
+
                 resultData["status"] = delegate.getStatus()
                 resultData["statusDetails"] = delegate.getStatusDetail()
                 
                 if let _idPago = (delegate.getPaymentId()) {
-                    resultData["paymentId"] = _idPago
+                    resultData["id"] = _idPago
                 }
+
+                // "payment_method_id" to payment.paymentMethodId,
+                // "payment_type_id" to payment.paymentTypeId,
+                // "issuer_id" to payment.issuerId,
+                // "installments" to payment.installments
                 
                 self.pendingResult!(resultData)
             } else {
-                self.pendingResult!(FlutterError(
-                    code: "2",
-                    message: "Payment error",
-                    details: nil
-                ))
+                resultData["result"] = _idPago
+                resultData["errorMessage"] = "Error"
+                self.pendingResult!(resultData)
             }
             
             self.handleNavigationBar(isMercadoPagoActive: false)
