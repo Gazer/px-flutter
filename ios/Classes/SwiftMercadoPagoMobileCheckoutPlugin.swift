@@ -49,28 +49,28 @@ public class SwiftMercadoPagoMobileCheckoutPlugin: NSObject, FlutterPlugin, PXLi
     
     
     public func finishCheckout() -> ((PXResult?) -> Void)? {
-        return ({(_ payment: PXResult?) in
-            var resultData : [String : String] = [:]
+        return ({(_ result: PXResult?) in
+            var resultData : [String : Any?] = [:]
             
-            if let delegate = (payment) {
+            if let payment = (result as? PXPayment) {
                 resultData["result"] = "done"
-
-                resultData["status"] = delegate.getStatus()
-                resultData["statusDetails"] = delegate.getStatusDetail()
-                
-                if let _idPago = (delegate.getPaymentId()) {
-                    resultData["id"] = _idPago
-                }
-
-                // "payment_method_id" to payment.paymentMethodId,
-                // "payment_type_id" to payment.paymentTypeId,
-                // "issuer_id" to payment.issuerId,
-                // "installments" to payment.installments
-                
+                resultData["status"] = payment.status
+                resultData["statusDetail"] = payment.statusDetail
+                resultData["id"] = payment.id
+                resultData["paymentMethodId"] = payment.paymentMethodId
+                resultData["paymentTypeId"] = payment.paymentTypeId
+                resultData["issuerId"] = payment.issuerId
+                resultData["installments"] = payment.installments
+                resultData["captured"] = payment.captured
+                resultData["liveMode"] = payment.liveMode
+                resultData["transactionAmount"] = String(describing: "\(payment.transactionAmount)")
+                resultData["transactionDetails"] = payment.transactionDetails
                 self.pendingResult!(resultData)
             } else {
-                resultData["result"] = _idPago
-                resultData["errorMessage"] = "Error"
+                resultData["result"] = "done"
+                resultData["status"] = result?.getStatus()
+                resultData["statusDetail"] = result?.getStatusDetail()
+                resultData["id"] = Int(result?.getPaymentId() ?? "")
                 self.pendingResult!(resultData)
             }
             
