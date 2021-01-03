@@ -70,6 +70,20 @@ import Flutter
 }
 ```
 
+Also, by default Flutter creates the iOS app to target a version that is not supported by px-ios. So, you need to open `ios/Podfile`, uncomment and edit the line that says:
+
+```
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
+```
+
+and change it to
+
+```
+# Uncomment this line to define a global platform for your project
+platform :ios, '10.0'
+```
+
 ## Installation
 
 Add this to your package's pubspec.yaml file:
