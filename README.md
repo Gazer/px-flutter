@@ -107,6 +107,12 @@ import 'package:mercado_pago_mobile_checkout/mercado_pago_mobile_checkout.dart';
 >
 > Also maybe in the future, MercadoPago may want to use that name to release their own version and I do not want to argue with them about a name :).
 
+#### I can't make payments or a red rectangle is show
+
+Please check the email that you are using to create the preferenceId. Some emails in the original documentation gives problems so try to use a real email.
+
+Also, check that the email used to create the preferenceId is not the same as the used to create the MarcadoPago account.
+
 ## Need help?
 
 Create an issue in https://github.com/Gazer/px-flutter
