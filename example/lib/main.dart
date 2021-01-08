@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'dart:async';
 
 import 'package:flutter/services.dart';
@@ -81,8 +80,7 @@ class _MyAppState extends State<MyApp> {
               Text('Running on: $_platformVersion\n'),
               RaisedButton(
                 onPressed: () async {
-                  PaymentResult result =
-                      await MercadoPagoMobileCheckout.startCheckout(
+                  PaymentResult result = await MercadoPagoMobileCheckout.startCheckout(
                     publicKey,
                     preferenceId,
                   );

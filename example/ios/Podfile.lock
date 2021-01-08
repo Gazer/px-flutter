@@ -5,6 +5,8 @@ PODS:
   - mercado_pago_mobile_checkout (0.0.1):
     - Flutter
     - MercadoPagoSDK (~> 4.32.4)
+    - MLCardDrawer (= 1.5.1)
+    - MLCardForm (= 0.9.1)
   - MercadoPagoSDK (4.32.4):
     - MercadoPagoSDK/Default (= 4.32.4)
     - MLBusinessComponents (~> 1.0)
@@ -14,69 +16,69 @@ PODS:
     - MLCardDrawer (~> 1.0)
     - MLCardForm (~> 0.1)
     - MLUI (~> 5.0)
-  - MLBusinessComponents (1.8.4):
-    - MLBusinessComponents/Default (= 1.8.4)
+  - MLBusinessComponents (1.28.0):
+    - MLBusinessComponents/Default (= 1.28.0)
     - MLUI (~> 5.0)
-  - MLBusinessComponents/Default (1.8.4):
+  - MLBusinessComponents/Default (1.28.0):
     - MLUI (~> 5.0)
-  - MLCardDrawer (1.4.6):
-    - MLCardDrawer/Default (= 1.4.6)
-  - MLCardDrawer/Default (1.4.6)
-  - MLCardForm (0.8.2):
+  - MLCardDrawer (1.5.1):
+    - MLCardDrawer/Default (= 1.5.1)
+  - MLCardDrawer/Default (1.5.1)
+  - MLCardForm (0.9.1):
     - MLCardDrawer (~> 1.0)
-    - MLCardForm/Default (= 0.8.2)
+    - MLCardForm/Default (= 0.9.1)
     - MLUI (~> 5.0)
-  - MLCardForm/Default (0.8.2):
+  - MLCardForm/Default (0.9.1):
     - MLCardDrawer (~> 1.0)
     - MLUI (~> 5.0)
-  - MLUI (5.20.0):
-    - MLUI/ActionButton (= 5.20.0)
-    - MLUI/Core (= 5.20.0)
-    - MLUI/Helpers (= 5.20.0)
-    - MLUI/MLButton (= 5.20.0)
-    - MLUI/MLCheckBox (= 5.20.0)
-    - MLUI/MLColorPalette (= 5.20.0)
-    - MLUI/MLContextualMenu (= 5.20.0)
-    - MLUI/MLFonts (= 5.20.0)
-    - MLUI/MLFullscreenModal (= 5.20.0)
-    - MLUI/MLGenericErrorView (= 5.20.0)
-    - MLUI/MLHeader (= 5.20.0)
-    - MLUI/MLHtml (= 5.20.0)
-    - MLUI/MLModal (= 5.20.0)
-    - MLUI/MLRadioButton (= 5.20.0)
-    - MLUI/MLSnackBar (= 5.20.0)
-    - MLUI/MLSpacing (= 5.20.0)
-    - MLUI/MLSpinner (= 5.20.0)
-    - MLUI/MLSwitch (= 5.20.0)
-    - MLUI/MLTextView (= 5.20.0)
-    - MLUI/MLTitledMultiLineTextField (= 5.20.0)
-    - MLUI/MLTitledSingleLineTextField (= 5.20.0)
-    - MLUI/PriceView (= 5.20.0)
-    - MLUI/SnackBarView (= 5.20.0)
-    - MLUI/StyleSheet (= 5.20.0)
-  - MLUI/ActionButton (5.20.0):
+  - MLUI (5.25.0):
+    - MLUI/ActionButton (= 5.25.0)
+    - MLUI/Core (= 5.25.0)
+    - MLUI/Helpers (= 5.25.0)
+    - MLUI/MLButton (= 5.25.0)
+    - MLUI/MLCheckBox (= 5.25.0)
+    - MLUI/MLColorPalette (= 5.25.0)
+    - MLUI/MLContextualMenu (= 5.25.0)
+    - MLUI/MLFonts (= 5.25.0)
+    - MLUI/MLFullscreenModal (= 5.25.0)
+    - MLUI/MLGenericErrorView (= 5.25.0)
+    - MLUI/MLHeader (= 5.25.0)
+    - MLUI/MLHtml (= 5.25.0)
+    - MLUI/MLModal (= 5.25.0)
+    - MLUI/MLRadioButton (= 5.25.0)
+    - MLUI/MLSnackBar (= 5.25.0)
+    - MLUI/MLSpacing (= 5.25.0)
+    - MLUI/MLSpinner (= 5.25.0)
+    - MLUI/MLSwitch (= 5.25.0)
+    - MLUI/MLTextView (= 5.25.0)
+    - MLUI/MLTitledMultiLineTextField (= 5.25.0)
+    - MLUI/MLTitledSingleLineTextField (= 5.25.0)
+    - MLUI/PriceView (= 5.25.0)
+    - MLUI/SnackBarView (= 5.25.0)
+    - MLUI/StyleSheet (= 5.25.0)
+  - MLUI/ActionButton (5.25.0):
     - MLUI/Core
-  - MLUI/Core (5.20.0):
+  - MLUI/Core (5.25.0):
     - MLUI/MLFonts
-  - MLUI/Helpers (5.20.0)
-  - MLUI/MLButton (5.20.0):
+  - MLUI/Helpers (5.25.0)
+  - MLUI/MLButton (5.25.0):
     - MLUI/Core
     - MLUI/MLColorPalette
     - MLUI/MLFonts
     - MLUI/MLSpinner
     - MLUI/StyleSheet
-  - MLUI/MLCheckBox (5.20.0):
+  - MLUI/MLCheckBox (5.25.0):
     - MLUI/MLColorPalette
     - MLUI/StyleSheet
-  - MLUI/MLColorPalette (5.20.0)
-  - MLUI/MLContextualMenu (5.20.0):
+  - MLUI/MLColorPalette (5.25.0)
+  - MLUI/MLContextualMenu (5.25.0):
     - MLUI/MLColorPalette
     - MLUI/MLFonts
-  - MLUI/MLFonts (5.20.0):
+  - MLUI/MLFonts (5.25.0):
     - JRSwizzle (= 1.0)
     - MLUI/Helpers
     - MLUI/StyleSheet
-  - MLUI/MLFullscreenModal (5.20.0):
+  - MLUI/MLFullscreenModal (5.25.0):
     - FXBlurView (~> 1.6)
     - MLUI/Core
     - MLUI/MLButton
@@ -84,58 +86,58 @@ PODS:
     - MLUI/MLFonts
     - MLUI/MLHeader
     - MLUI/StyleSheet
-  - MLUI/MLGenericErrorView (5.20.0):
+  - MLUI/MLGenericErrorView (5.25.0):
     - MLUI/MLButton
     - MLUI/MLColorPalette
     - MLUI/MLSpacing
-  - MLUI/MLHeader (5.20.0):
+  - MLUI/MLHeader (5.25.0):
     - MLUI/MLColorPalette
     - MLUI/StyleSheet
-  - MLUI/MLHtml (5.20.0):
+  - MLUI/MLHtml (5.25.0):
     - MLUI/MLFonts
-  - MLUI/MLModal (5.20.0):
+  - MLUI/MLModal (5.25.0):
     - FXBlurView (~> 1.6)
     - MLUI/Core
     - MLUI/MLButton
     - MLUI/MLColorPalette
     - MLUI/MLFonts
     - MLUI/StyleSheet
-  - MLUI/MLRadioButton (5.20.0):
+  - MLUI/MLRadioButton (5.25.0):
     - MLUI/StyleSheet
-  - MLUI/MLSnackBar (5.20.0):
+  - MLUI/MLSnackBar (5.25.0):
     - MLUI/Helpers
     - MLUI/MLButton
     - MLUI/MLColorPalette
     - MLUI/MLFonts
-  - MLUI/MLSpacing (5.20.0):
+  - MLUI/MLSpacing (5.25.0):
     - JRSwizzle (= 1.0)
     - MLUI/MLFonts
-  - MLUI/MLSpinner (5.20.0):
+  - MLUI/MLSpinner (5.25.0):
     - MLUI/MLColorPalette
     - MLUI/MLFonts
     - MLUI/StyleSheet
-  - MLUI/MLSwitch (5.20.0):
+  - MLUI/MLSwitch (5.25.0):
     - MLUI/Helpers
     - MLUI/MLColorPalette
-  - MLUI/MLTextView (5.20.0):
+  - MLUI/MLTextView (5.25.0):
     - MLUI/MLColorPalette
     - MLUI/MLFonts
-  - MLUI/MLTitledMultiLineTextField (5.20.0):
+  - MLUI/MLTitledMultiLineTextField (5.25.0):
     - MLUI/MLColorPalette
     - MLUI/MLFonts
     - MLUI/MLTitledSingleLineTextField
     - MLUI/StyleSheet
-  - MLUI/MLTitledSingleLineTextField (5.20.0):
+  - MLUI/MLTitledSingleLineTextField (5.25.0):
     - MLUI/MLColorPalette
     - MLUI/MLFonts
     - MLUI/StyleSheet
-  - MLUI/PriceView (5.20.0):
+  - MLUI/PriceView (5.25.0):
     - MLUI/Core
     - MLUI/MLFonts
-  - MLUI/SnackBarView (5.20.0):
+  - MLUI/SnackBarView (5.25.0):
     - MLUI/Helpers
     - MLUI/MLFonts
-  - MLUI/StyleSheet (5.20.0)
+  - MLUI/StyleSheet (5.25.0)
 
 DEPENDENCIES:
   - Flutter (from `Flutter`)
@@ -161,13 +163,13 @@ SPEC CHECKSUMS:
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
   JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
-  mercado_pago_mobile_checkout: 33f762ec1ef31baa50f15b95a2219c7c847d65ba
+  mercado_pago_mobile_checkout: 3d11d35a55b87bbc6ccc2c240b7d98344a6b73e2
   MercadoPagoSDK: 634fc8a9fe7f99f4d73506659c68cdbb885407fc
-  MLBusinessComponents: c84680989772b9c5c324d826142729386e02b14b
-  MLCardDrawer: 468f0d2387fd9402478afed67058169ee4daa9ca
-  MLCardForm: 235726a6fb513ead8e3811a95e43717de46814c9
-  MLUI: ad42fd449a4d8bf7e4dcdc43c719e9bcdfa665cc
+  MLBusinessComponents: 956bdba0551973a81a1251a6c2202a70db938044
+  MLCardDrawer: 2ae367238699c790a143b14c8280ad75495f6fee
+  MLCardForm: 150fe3caf0f986340431f3e8d863b771ee2dfab1
+  MLUI: db4e5bb3aae6884212dcf1213d76b65c5cd26464
 
-PODFILE CHECKSUM: 0ba44ad07df4ab62269dc769727cf0f12b1e453d
+PODFILE CHECKSUM: 9a3a3f1a7efb9deef8b81bda0dd08d534bcbe589
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.10.1
