@@ -142,7 +142,7 @@ DEPENDENCIES:
   - mercado_pago_mobile_checkout (from `.symlinks/plugins/mercado_pago_mobile_checkout/ios`)
 
 SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
+  trunk:
     - FXBlurView
     - JRSwizzle
     - MercadoPagoSDK
@@ -161,7 +161,7 @@ SPEC CHECKSUMS:
   Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
   FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
   JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
-  mercado_pago_mobile_checkout: 97b11c3ce421a3fb0dda21f85a443117a968dbc6
+  mercado_pago_mobile_checkout: 33f762ec1ef31baa50f15b95a2219c7c847d65ba
   MercadoPagoSDK: 634fc8a9fe7f99f4d73506659c68cdbb885407fc
   MLBusinessComponents: c84680989772b9c5c324d826142729386e02b14b
   MLCardDrawer: 468f0d2387fd9402478afed67058169ee4daa9ca
@@ -170,4 +170,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: 0ba44ad07df4ab62269dc769727cf0f12b1e453d
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.10.0
