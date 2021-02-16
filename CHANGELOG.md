@@ -1,3 +1,8 @@
+## 0.0.3
+
+* FIXES [#12]
+* Example app updated to the latest stable SDK
+
 ## 0.0.2
 
 * Map more fields from Android/iOS to dart when the payment is success
