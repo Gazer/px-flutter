@@ -79,7 +79,7 @@ class _MyAppState extends State<MyApp> {
           child: Column(
             children: <Widget>[
               Text('Running on: $_platformVersion\n'),
-              RaisedButton(
+              ElevatedButton(
                 onPressed: () async {
                   PaymentResult result =
                       await MercadoPagoMobileCheckout.startCheckout(
