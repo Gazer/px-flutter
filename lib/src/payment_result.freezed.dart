@@ -16,18 +16,18 @@ class _$PaymentResultTearOff {
   const _$PaymentResultTearOff();
 
   _PaymentResult call(String result,
-      [int id,
-      String status,
-      String statusDetail,
-      String paymentMethodId,
-      String paymentTypeId,
-      String issuerId,
-      String installments,
-      bool captured,
-      bool liveMode,
-      String operationType,
-      String transactionAmount,
-      String errorMessage]) {
+      [int? id,
+      String? status,
+      String? statusDetail,
+      String? paymentMethodId,
+      String? paymentTypeId,
+      String? issuerId,
+      String? installments,
+      bool? captured,
+      bool? liveMode,
+      String? operationType,
+      String? transactionAmount,
+      String? errorMessage]) {
     return _PaymentResult(
       result,
       id,
@@ -51,18 +51,18 @@ const $PaymentResult = _$PaymentResultTearOff();
 
 mixin _$PaymentResult {
   String get result;
-  int get id;
-  String get status;
-  String get statusDetail;
-  String get paymentMethodId;
-  String get paymentTypeId;
-  String get issuerId;
-  String get installments;
-  bool get captured;
-  bool get liveMode;
-  String get operationType;
-  String get transactionAmount;
-  String get errorMessage;
+  int? get id;
+  String? get status;
+  String? get statusDetail;
+  String? get paymentMethodId;
+  String? get paymentTypeId;
+  String? get issuerId;
+  String? get installments;
+  bool? get captured;
+  bool? get liveMode;
+  String? get operationType;
+  String? get transactionAmount;
+  String? get errorMessage;
 
   Map<String, dynamic> toJson();
   $PaymentResultCopyWith<PaymentResult> get copyWith;
@@ -74,18 +74,18 @@ abstract class $PaymentResultCopyWith<$Res> {
       _$PaymentResultCopyWithImpl<$Res>;
   $Res call(
       {String result,
-      int id,
-      String status,
-      String statusDetail,
-      String paymentMethodId,
-      String paymentTypeId,
-      String issuerId,
-      String installments,
-      bool captured,
-      bool liveMode,
-      String operationType,
-      String transactionAmount,
-      String errorMessage});
+      int? id,
+      String? status,
+      String? statusDetail,
+      String? paymentMethodId,
+      String? paymentTypeId,
+      String? issuerId,
+      String? installments,
+      bool? captured,
+      bool? liveMode,
+      String? operationType,
+      String? transactionAmount,
+      String? errorMessage});
 }
 
 class _$PaymentResultCopyWithImpl<$Res>
@@ -99,44 +99,44 @@ class _$PaymentResultCopyWithImpl<$Res>
   @override
   $Res call({
     Object result = freezed,
-    Object id = freezed,
-    Object status = freezed,
-    Object statusDetail = freezed,
-    Object paymentMethodId = freezed,
-    Object paymentTypeId = freezed,
-    Object issuerId = freezed,
-    Object installments = freezed,
-    Object captured = freezed,
-    Object liveMode = freezed,
-    Object operationType = freezed,
-    Object transactionAmount = freezed,
-    Object errorMessage = freezed,
+    Object? id = freezed,
+    Object? status = freezed,
+    Object? statusDetail = freezed,
+    Object? paymentMethodId = freezed,
+    Object? paymentTypeId = freezed,
+    Object? issuerId = freezed,
+    Object? installments = freezed,
+    Object? captured = freezed,
+    Object? liveMode = freezed,
+    Object? operationType = freezed,
+    Object? transactionAmount = freezed,
+    Object? errorMessage = freezed,
   }) {
     return _then(_value.copyWith(
       result: result == freezed ? _value.result : result as String,
-      id: id == freezed ? _value.id : id as int,
-      status: status == freezed ? _value.status : status as String,
+      id: id == freezed ? _value.id : id as int?,
+      status: status == freezed ? _value.status : status as String?,
       statusDetail: statusDetail == freezed
           ? _value.statusDetail
-          : statusDetail as String,
+          : statusDetail as String?,
       paymentMethodId: paymentMethodId == freezed
           ? _value.paymentMethodId
-          : paymentMethodId as String,
+          : paymentMethodId as String?,
       paymentTypeId: paymentTypeId == freezed
           ? _value.paymentTypeId
-          : paymentTypeId as String,
-      issuerId: issuerId == freezed ? _value.issuerId : issuerId as String,
+          : paymentTypeId as String?,
+      issuerId: issuerId == freezed ? _value.issuerId : issuerId as String?,
       installments: installments == freezed
           ? _value.installments
-          : installments as String,
-      captured: captured == freezed ? _value.captured : captured as bool,
-      liveMode: liveMode == freezed ? _value.liveMode : liveMode as bool,
+          : installments as String?,
+      captured: captured == freezed ? _value.captured : captured as bool?,
+      liveMode: liveMode == freezed ? _value.liveMode : liveMode as bool?,
       operationType: operationType == freezed
           ? _value.operationType
-          : operationType as String,
+          : operationType as String?,
       transactionAmount: transactionAmount == freezed
           ? _value.transactionAmount
-          : transactionAmount as String,
+          : transactionAmount as String?,
       errorMessage: errorMessage == freezed
           ? _value.errorMessage
           : errorMessage as String,
@@ -151,19 +151,19 @@ abstract class _$PaymentResultCopyWith<$Res>
       __$PaymentResultCopyWithImpl<$Res>;
   @override
   $Res call(
-      {String result,
-      int id,
-      String status,
-      String statusDetail,
-      String paymentMethodId,
-      String paymentTypeId,
-      String issuerId,
-      String installments,
-      bool captured,
-      bool liveMode,
-      String operationType,
-      String transactionAmount,
-      String errorMessage});
+      {String? result,
+      int? id,
+      String? status,
+      String? statusDetail,
+      String? paymentMethodId,
+      String? paymentTypeId,
+      String? issuerId,
+      String? installments,
+      bool? captured,
+      bool? liveMode,
+      String? operationType,
+      String? transactionAmount,
+      String? errorMessage});
 }
 
 class __$PaymentResultCopyWithImpl<$Res>
@@ -178,38 +178,38 @@ class __$PaymentResultCopyWithImpl<$Res>
 
   @override
   $Res call({
-    Object result = freezed,
-    Object id = freezed,
-    Object status = freezed,
-    Object statusDetail = freezed,
-    Object paymentMethodId = freezed,
-    Object paymentTypeId = freezed,
-    Object issuerId = freezed,
-    Object installments = freezed,
-    Object captured = freezed,
-    Object liveMode = freezed,
-    Object operationType = freezed,
-    Object transactionAmount = freezed,
-    Object errorMessage = freezed,
+    Object? result = freezed,
+    Object? id = freezed,
+    Object? status = freezed,
+    Object? statusDetail = freezed,
+    Object? paymentMethodId = freezed,
+    Object? paymentTypeId = freezed,
+    Object? issuerId = freezed,
+    Object? installments = freezed,
+    Object? captured = freezed,
+    Object? liveMode = freezed,
+    Object? operationType = freezed,
+    Object? transactionAmount = freezed,
+    Object? errorMessage = freezed,
   }) {
     return _then(_PaymentResult(
-      result == freezed ? _value.result : result as String,
-      id == freezed ? _value.id : id as int,
-      status == freezed ? _value.status : status as String,
-      statusDetail == freezed ? _value.statusDetail : statusDetail as String,
+      result == freezed ? _value.result : (result as String?)!,
+      id == freezed ? _value.id : id as int?,
+      status == freezed ? _value.status : status as String?,
+      statusDetail == freezed ? _value.statusDetail : statusDetail as String?,
       paymentMethodId == freezed
           ? _value.paymentMethodId
-          : paymentMethodId as String,
-      paymentTypeId == freezed ? _value.paymentTypeId : paymentTypeId as String,
-      issuerId == freezed ? _value.issuerId : issuerId as String,
-      installments == freezed ? _value.installments : installments as String,
-      captured == freezed ? _value.captured : captured as bool,
-      liveMode == freezed ? _value.liveMode : liveMode as bool,
-      operationType == freezed ? _value.operationType : operationType as String,
+          : paymentMethodId as String?,
+      paymentTypeId == freezed ? _value.paymentTypeId : paymentTypeId as String?,
+      issuerId == freezed ? _value.issuerId : issuerId as String?,
+      installments == freezed ? _value.installments : installments as String?,
+      captured == freezed ? _value.captured : captured as bool?,
+      liveMode == freezed ? _value.liveMode : liveMode as bool?,
+      operationType == freezed ? _value.operationType : operationType as String?,
       transactionAmount == freezed
           ? _value.transactionAmount
-          : transactionAmount as String,
-      errorMessage == freezed ? _value.errorMessage : errorMessage as String,
+          : transactionAmount as String?,
+      errorMessage == freezed ? _value.errorMessage : errorMessage as String?,
     ));
   }
 }
@@ -228,8 +228,7 @@ class _$_PaymentResult implements _PaymentResult {
       this.liveMode,
       this.operationType,
       this.transactionAmount,
-      this.errorMessage])
-      : assert(result != null);
+      this.errorMessage]);
 
   factory _$_PaymentResult.fromJson(Map<String, dynamic> json) =>
       _$_$_PaymentResultFromJson(json);
@@ -237,29 +236,29 @@ class _$_PaymentResult implements _PaymentResult {
   @override
   final String result;
   @override
-  final int id;
+  final int? id;
   @override
-  final String status;
+  final String? status;
   @override
-  final String statusDetail;
+  final String? statusDetail;
   @override
-  final String paymentMethodId;
+  final String? paymentMethodId;
   @override
-  final String paymentTypeId;
+  final String? paymentTypeId;
   @override
-  final String issuerId;
+  final String? issuerId;
   @override
-  final String installments;
+  final String? installments;
   @override
-  final bool captured;
+  final bool? captured;
   @override
-  final bool liveMode;
+  final bool? liveMode;
   @override
-  final String operationType;
+  final String? operationType;
   @override
-  final String transactionAmount;
+  final String? transactionAmount;
   @override
-  final String errorMessage;
+  final String? errorMessage;
 
   @override
   String toString() {
@@ -337,18 +336,18 @@ class _$_PaymentResult implements _PaymentResult {
 
 abstract class _PaymentResult implements PaymentResult {
   const factory _PaymentResult(String result,
-      [int id,
-      String status,
-      String statusDetail,
-      String paymentMethodId,
-      String paymentTypeId,
-      String issuerId,
-      String installments,
-      bool captured,
-      bool liveMode,
-      String operationType,
-      String transactionAmount,
-      String errorMessage]) = _$_PaymentResult;
+      [int? id,
+      String? status,
+      String? statusDetail,
+      String? paymentMethodId,
+      String? paymentTypeId,
+      String? issuerId,
+      String? installments,
+      bool? captured,
+      bool? liveMode,
+      String? operationType,
+      String? transactionAmount,
+      String? errorMessage]) = _$_PaymentResult;
 
   factory _PaymentResult.fromJson(Map<String, dynamic> json) =
       _$_PaymentResult.fromJson;
@@ -356,29 +355,29 @@ abstract class _PaymentResult implements PaymentResult {
   @override
   String get result;
   @override
-  int get id;
+  int? get id;
   @override
-  String get status;
+  String? get status;
   @override
-  String get statusDetail;
+  String? get statusDetail;
   @override
-  String get paymentMethodId;
+  String? get paymentMethodId;
   @override
-  String get paymentTypeId;
+  String? get paymentTypeId;
   @override
-  String get issuerId;
+  String? get issuerId;
   @override
-  String get installments;
+  String? get installments;
   @override
-  bool get captured;
+  bool? get captured;
   @override
-  bool get liveMode;
+  bool? get liveMode;
   @override
-  String get operationType;
+  String? get operationType;
   @override
-  String get transactionAmount;
+  String? get transactionAmount;
   @override
-  String get errorMessage;
+  String? get errorMessage;
   @override
   _$PaymentResultCopyWith<_PaymentResult> get copyWith;
 }
