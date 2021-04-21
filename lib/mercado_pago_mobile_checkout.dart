@@ -33,7 +33,8 @@ class MercadoPagoMobileCheckout {
     String publicKey,
     String preferenceId,
   ) async {
-    Map<String, dynamic> result = await (_channel.invokeMapMethod(
+    Map<String, dynamic> result =
+        await (_channel.invokeMapMethod<String, dynamic>(
       'startCheckout',
       {
         "publicKey": publicKey,
