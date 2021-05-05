@@ -90,7 +90,7 @@ Add this to your package's pubspec.yaml file:
 
 ```yaml
 dependencies:
-  mercado_pago_mobile_checkout: ^0.0.3
+  mercado_pago_mobile_checkout: ^0.1.0
 ```
 
 Add the following import to your Dart code:
@@ -112,6 +112,10 @@ import 'package:mercado_pago_mobile_checkout/mercado_pago_mobile_checkout.dart';
 Please check the email that you are using to create the preferenceId. Some emails in the original documentation gives problems so try to use a real email.
 
 Also, check that the email used to create the preferenceId is not the same as the used to create the MarcadoPago account.
+
+#### Does this package support null-safe?
+
+Yes, from version 0.1.0 we support null-safety on Dart
 
 ## Need help?
 

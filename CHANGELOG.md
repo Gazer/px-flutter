@@ -1,3 +1,8 @@
+## 0.1.0
+
+* null-safety support (Thanks Gonzaa25)
+* fix return type (Thanks Rodrigo Pequeno)
+
 ## 0.0.3
 
 * FIXES [#12]
