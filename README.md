@@ -90,7 +90,7 @@ Add this to your package's pubspec.yaml file:
 
 ```yaml
 dependencies:
-  mercado_pago_mobile_checkout: ^0.1.0
+  mercado_pago_mobile_checkout: ^0.1.1
 ```
 
 Add the following import to your Dart code:
