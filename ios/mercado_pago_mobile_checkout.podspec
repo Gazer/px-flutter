@@ -19,6 +19,7 @@ A new Flutter plugin.
   # See https://github.com/mercadopago/px-ios/issues/2386
   s.dependency 'MLCardForm', '0.9.1'
   s.dependency 'MLCardDrawer', '1.5.1'
+  s.dependency 'MLBusinessComponents', '1.29.0'
   s.platform     = :ios, '10.0'
 
   # Flutter.framework does not contain a i386 slice. Only x86_64 simulators are supported.
