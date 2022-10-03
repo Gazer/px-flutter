@@ -5,6 +5,7 @@ PODS:
   - mercado_pago_mobile_checkout (0.0.1):
     - Flutter
     - MercadoPagoSDK (~> 4.32.4)
+    - MLBusinessComponents (= 1.29.0)
     - MLCardDrawer (= 1.5.1)
     - MLCardForm (= 0.9.1)
   - MercadoPagoSDK (4.32.4):
@@ -16,10 +17,10 @@ PODS:
     - MLCardDrawer (~> 1.0)
     - MLCardForm (~> 0.1)
     - MLUI (~> 5.0)
-  - MLBusinessComponents (1.28.0):
-    - MLBusinessComponents/Default (= 1.28.0)
+  - MLBusinessComponents (1.29.0):
+    - MLBusinessComponents/Default (= 1.29.0)
     - MLUI (~> 5.0)
-  - MLBusinessComponents/Default (1.28.0):
+  - MLBusinessComponents/Default (1.29.0):
     - MLUI (~> 5.0)
   - MLCardDrawer (1.5.1):
     - MLCardDrawer/Default (= 1.5.1)
@@ -160,16 +161,16 @@ EXTERNAL SOURCES:
     :path: ".symlinks/plugins/mercado_pago_mobile_checkout/ios"
 
 SPEC CHECKSUMS:
-  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
   FXBlurView: db786c2561cb49a09ae98407f52460096ab8a44f
   JRSwizzle: dd5ead5d913a0f29e7f558200165849f006bb1e3
-  mercado_pago_mobile_checkout: 3d11d35a55b87bbc6ccc2c240b7d98344a6b73e2
+  mercado_pago_mobile_checkout: fd78f498e81fa25997c13007bae791614f953dd3
   MercadoPagoSDK: 634fc8a9fe7f99f4d73506659c68cdbb885407fc
-  MLBusinessComponents: 956bdba0551973a81a1251a6c2202a70db938044
+  MLBusinessComponents: fd4e20fa87f5970eed7eead5e6901ddb781c11fd
   MLCardDrawer: 2ae367238699c790a143b14c8280ad75495f6fee
   MLCardForm: 150fe3caf0f986340431f3e8d863b771ee2dfab1
   MLUI: db4e5bb3aae6884212dcf1213d76b65c5cd26464
 
-PODFILE CHECKSUM: af3c920d3225de4d2cd64fcbfe0dd6f7e7aa4ad8
+PODFILE CHECKSUM: b7a833ad079227ba0be5d9ded188e5d92916dc28
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.11.3

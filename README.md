@@ -84,6 +84,8 @@ and change it to
 platform :ios, '10.0'
 ```
 
+And also, add `use_modular_headers!` to the `Runner` target.
+
 ## Installation
 
 Add this to your package's pubspec.yaml file:
