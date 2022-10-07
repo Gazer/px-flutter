@@ -1,7 +1,6 @@
 name: mercado_pago_mobile_checkout
 description: Mercado Pago's Unofficial Flutter checkout library that implements the MercadoPago Mobile Checkout using the native SDK.
-version: 0.1.1
-author: Ricardo Markiewicz <ricardo.markiewicz@gmail.com>
+version: 0.2.0-dev.1
 homepage: https://github.com/Gazer/px-flutter
 
 environment:

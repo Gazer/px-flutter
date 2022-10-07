@@ -1,3 +1,8 @@
+## 0.2.0-dev.1
+
+* Upgrade px-android to 4.53
+* Now MinSDK for Android is 21 to match px-android
+
 ## 0.1.0
 
 * null-safety support (Thanks Gonzaa25)
