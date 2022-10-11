@@ -1,3 +1,7 @@
+## 0.2.0-dev.2
+
+* Dependencies updates (Thanks pabrcno)
+
 ## 0.2.0-dev.1
 
 * Upgrade px-android to 4.53
