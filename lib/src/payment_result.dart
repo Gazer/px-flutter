@@ -13,7 +13,7 @@ abstract class PaymentResult with _$PaymentResult {
     String? paymentMethodId,
     String? paymentTypeId,
     String? issuerId,
-    String? installments,
+    int? installments,
     bool? captured,
     bool? liveMode,
     String? operationType,

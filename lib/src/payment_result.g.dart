@@ -6,25 +6,24 @@ part of 'payment_result.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$_PaymentResult _$_$_PaymentResultFromJson(Map<String, dynamic> json) {
-  return _$_PaymentResult(
-    json['result'] as String,
-    json['id'] as int?,
-    json['status'] as String?,
-    json['statusDetail'] as String?,
-    json['paymentMethodId'] as String?,
-    json['paymentTypeId'] as String?,
-    json['issuerId'] as String?,
-    json['installments'] as String?,
-    json['captured'] as bool?,
-    json['liveMode'] as bool?,
-    json['operationType'] as String?,
-    json['transactionAmount'] as String?,
-    json['errorMessage'] as String?,
-  );
-}
+_$_PaymentResult _$$_PaymentResultFromJson(Map<String, dynamic> json) =>
+    _$_PaymentResult(
+      json['result'] as String,
+      json['id'] as int?,
+      json['status'] as String?,
+      json['statusDetail'] as String?,
+      json['paymentMethodId'] as String?,
+      json['paymentTypeId'] as String?,
+      json['issuerId'] as String?,
+      json['installments'] as int?,
+      json['captured'] as bool?,
+      json['liveMode'] as bool?,
+      json['operationType'] as String?,
+      json['transactionAmount'] as String?,
+      json['errorMessage'] as String?,
+    );
 
-Map<String, dynamic> _$_$_PaymentResultToJson(_$_PaymentResult instance) =>
+Map<String, dynamic> _$$_PaymentResultToJson(_$_PaymentResult instance) =>
     <String, dynamic>{
       'result': instance.result,
       'id': instance.id,

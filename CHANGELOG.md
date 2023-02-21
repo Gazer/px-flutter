@@ -1,3 +1,7 @@
+## 0.2.0-dev.4
+
+* FIXES [#60] - Fix Cast error
+
 ## 0.2.0-dev.3
 
 * Force px-android to 4.53.2 (Thanks tonycesar)
