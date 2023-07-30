@@ -5,6 +5,12 @@ Mercado Pago's Unofficial Flutter checkout library
 ---
 >Made with ❤️ by Ricardo Markiewicz // [@gazeria](https://twitter.com/gazeria).
 
+## THIS PACKAGE IS DEPRECATED
+
+MercadoPago has discontinue Quick Checkout for Android and iOS. 
+
+The official recommendation is to use a webview using Checkout Bricks.
+
 ## What is this?
 
 Flutter implementation of [MercadoPago Mobile Checkout](https://www.mercadopago.com.ar/developers/es/guides/payments/mobile-checkout/introduction/)

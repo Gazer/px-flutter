@@ -1,3 +1,7 @@
+## 0.2.1
+
+* Package discontinued
+
 ## 0.2.0-dev.4
 
 * FIXES [#60] - Fix Cast error
